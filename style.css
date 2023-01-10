@@ -1,0 +1,829 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1920px;
+    height: 1080px;
+    background-image: url('./media/backlogo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+    width: 1330px;
+    height: 52px;
+    padding-left: 345px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 1pt;
+    font-size: 18pt;
+    color: rgb(158, 226, 218);
+    font-family: 'Century Gothic';
+    font-weight: 900;
+}
+
+.menu {
+    margin-left: 85.5px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: consolas;
+    color: rgb(247, 247, 247);
+    font-size: 14pt;
+    font-weight: 800;
+
+}
+
+.cta {
+    margin-left: 40px;
+}
+
+.cta button {
+    display: inline;
+    font-family: consolas;
+}
+
+#consult {
+    width: 207px;
+    height: 52px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    border: none;
+
+}
+
+#auth {
+    width: 207px;
+    height: 52px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: none;
+}
+
+
+/* center */
+.centerBlock {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+}
+
+.play-video {
+    width: 172px;
+    height: 84px;
+    margin-left: 329px;
+    /* margin-top: 212px; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-family: 'Century Gothic';
+    font-size: 10pt;
+}
+
+.play-button {
+    width: 84px;
+    height: 84px;
+    position: relative;
+    cursor: pointer;
+}
+
+#largeImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+#smallImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#polygon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerText {
+    margin-top: 24px;
+    margin-left: 329px;
+    width: 496px;
+    height: 249px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 130%;
+    font-family: 'Century Gothic';
+    color: rgb(46, 44, 44);
+}
+
+.centerButtons {
+    margin-top: 60px;
+    margin-left: 329px;
+}
+
+#aboutCenter {
+    width: 148px;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+}
+
+#exploreCenter {
+    width: 148px;
+    height: 52px;
+    border-radius: 4px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: none;
+}
+
+.leftCenter {
+    margin-left: 180px;
+}
+
+.leftCenter img {
+    height: 420px;
+    width: 500px;
+}
+
+.statistic {
+    margin-top: 190px;
+    margin-left: 329px;
+    display: flex;
+    gap: 140px;
+}
+
+.itemS {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.itemS h2 {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+
+.itemS p {
+    font-family: 'Century Gothic';
+    color: whitesmoke;
+}
+
+.about {
+    margin-top: 180px;
+    display: flex;
+    gap: 135px;
+
+}
+
+.about img {
+    width: 600px;
+    height: 400px;
+    margin-left: 345px;
+}
+
+.aboutText h4 {
+    font-family: 'Century Gothic';
+}
+
+.aboutText h1 {
+    margin-top: 8px;
+    font-family: 'Century Gothic';
+}
+
+.aboutText ul {
+    margin-top: 40px;
+}
+
+.aboutText li {
+    margin-top: 12px;
+    font-family: consolas;
+    color: rgb(46, 44, 44);
+    list-style: none;
+}
+
+.aboutText li::before {
+    content: "• ";
+    color: rgb(255, 136, 0);
+}
+
+#moreAbout {
+    margin-top: 48px;
+    width: 148px;
+    height: 52px;
+    border-radius: 4px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: none;
+}
+
+/* courses*/
+
+.courses {
+
+    margin-top: 180px;
+
+}
+
+.heading {
+    margin-left: 345px;
+    font-family: 'Century Gothic';
+}
+
+.featuredHead {
+    display: flex;
+    width: 1230px;
+    justify-content: space-between;
+}
+
+#viewAllCourses {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: 1px solid #FF3F3A;
+    width: 123px;
+    height: 52px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.cards {
+    margin-top: 60px;
+    width: 1230px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pMarketing, .pHr, .pManagement, .pDesign {
+    margin-top: 33px;
+    display: inline-block;
+    background-color: teal;
+    font-family: consolas;
+    color: white;
+    padding: 3px;
+}
+
+.pHr {
+    background-color: rgb(209, 155, 6);
+}
+
+.pManagement {
+    background-color: rgb(25, 167, 223);
+}
+
+.pDesign {
+    background-color: rgb(201, 40, 201);
+}
+
+.card {
+    height: 214px;
+    width: 600px;
+    display: flex;
+    gap: 40px;
+    box-shadow: 0px -2px 6px rgb(218, 209, 209);
+}
+
+.card h2 {
+    margin-top: 21px;
+    font-family: consolas;
+}
+
+.card img {
+    width: 214px;
+    height: 214px;
+    object-fit: cover;
+}
+
+.aboutPeople {}
+
+.pMarketing {}
+
+.aboutPrice {
+    margin-top: 21px;
+    display: flex;
+    gap: 16px;
+}
+
+.aboutPrice {
+    color: rgb(182, 180, 180);
+}
+
+.aboutPrice p span {
+    color: #f5110a;
+}
+
+.aboutPrice p:first-child {
+    border-right: 1.5px solid rgb(173, 167, 167);
+    padding-right: 15px;
+}
+
+
+/* benefits*/
+
+.benefits {
+    margin-top: 180px;
+    /* margin-left: 345px; */
+}
+
+.bHeading {
+    width: 100%;
+    text-align: center;
+    font-family: 'Century Gothic';
+}
+
+.tabs {
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 1230px;
+
+}
+
+.tabs nav {
+    display: flex;
+    gap: 175.6px;
+    align-items: center;
+}
+
+.tabs nav li {
+    list-style: none;
+    color: rgb(182, 180, 180);
+}
+
+.tabs nav li:first-child {
+    border: 2px solid #FF3F3A;
+    padding: 10px 30px 10px 30px;
+}
+
+.tabs nav li img {
+    margin-right: 10px;
+}
+
+.benefitsText {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.bText {
+    font-family: 'Century Gothic';
+    margin-top: 192px;
+    width: 495px;
+    margin-right: 75px;
+}
+
+.bText h2 {
+    font-family: consolas;
+}
+
+.bText p {
+    margin-top: 24px;
+}
+
+.benefitsText img {}
+
+/*events*/
+.events {
+    margin-top: 140px;
+    width: 1920px;
+    height: 850px;
+    background-color: rgb(255, 219, 212);
+
+}
+
+.eventsHeading {
+    text-align: center;
+    font-family: 'Century Gothic';
+}
+
+.eventsHeading h4 {
+    padding-top: 80px;
+    padding-bottom: 8px;
+}
+
+
+.eventsList {
+    margin-top: 60px;
+}
+
+.itemList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 24px auto 0px auto;
+    width: 1230px;
+    height: 126px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.itemList h1 {
+
+    color: #FF3F3A;
+    font-size: 40pt;
+    font-family: consolas;
+}
+
+.itemDate {
+    width: 98px;
+}
+
+.itemInfo {
+    width: 757px;
+}
+
+.itemDate h2, .itemInfo h2 {
+    font-family: 'Century Gothic';
+    font-size: 14pt;
+}
+
+.itemDate p, .itemInfo p {
+    font-family: 'Century Gothic';
+    margin-top: 4px;
+    color: rgb(194, 179, 179);
+}
+
+.eventsViewMore {
+    width: 136px;
+    height: 44px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.viewAll {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family: 'Century Gothic';
+}
+
+.viewAll button {
+    width: 215px;
+    height: 52px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+
+/*team*/
+
+.team {
+
+    width: 1920px;
+    height: 1570px;
+    background-color: rgb(244, 245, 246);
+    font-family: 'Century Gothic';
+}
+
+.team h2 {
+    padding-top: 166px;
+    margin-left: 356px;
+}
+
+.team h1 {
+    margin-top: 8px;
+    margin-left: 356px;
+
+    font-size: 32pt;
+}
+
+.teamPhotos {
+    margin-top: 60px;
+    margin-left: 356px;
+    display: flex;
+    gap: 30px;
+}
+
+.itemPhoto {
+    text-align: center;
+}
+
+.itemPhoto img {
+    height: 340px;
+    width: 285px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.itemPhoto h3 {
+    margin-top: 16px;
+}
+
+.itemPhoto p {
+    margin-top: 4px;
+    color: rgb(194, 179, 179);
+}
+
+.tHeading {
+    margin-left: 356px;
+    margin-top: 80px;
+    height: 556px;
+    width: 1242px;
+
+}
+
+.tHeadText {
+    width: 900px;
+    text-align: center;
+}
+
+
+
+.testimonials {
+    height: 344px;
+    width: 1020px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgB {
+    align-self: flex-start;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.testiText {
+    height: 120px;
+    width: 752px;
+    text-align: justify;
+    display: flex;
+
+}
+
+.testiAuthor {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    margin-left: 163px;
+    gap: 20px;
+}
+
+.testiAuthor img {
+    width: 72px;
+    height: 72px;
+    border-radius: 35px;
+    object-fit: cover;
+}
+
+.testiAuthor p {
+    margin-top: 4px;
+    color: rgb(194, 179, 179);
+}
+
+.dots {
+    margin: 60px auto 0px auto;
+    width: 198px;
+    display: flex;
+    gap: 12px;
+}
+
+/*blog*/
+.blog {
+    margin-top: 120px;
+    margin-left: 345px;
+    width: 1232px;
+    height: 659px;
+    font-family: 'Century Gothic';
+}
+
+.latestHeading button {
+    width: 158px;
+    height: 52px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+
+.latestHeading {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.latestPost {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+.lPostItem {}
+
+.lPostImages {
+    position: relative;
+}
+
+.lPostAbout {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 6px 3px 6px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.postMeta {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgb(194, 179, 179);
+}
+
+.pAbout {
+    margin-top: 8px;
+    text-align: justify;
+}
+
+.pAbout p {
+    margin-top: 8px;
+    color: gray;
+}
+
+.pEvent {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+}
+
+.subscribe {
+    margin-top: 180px;
+    position: relative;
+    height: 564px;
+    width: 1920px;
+    background-color: rgb(254, 219, 211);
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+
+.subscribeHeading {
+    padding-top: 120px;
+}
+
+.subscribeHeading h1 {
+    margin-top: 8px;
+}
+
+.mailBlock {
+    margin: 60px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.mailBlock input {
+    height: 52px;
+    width: 422px;
+    border-radius: 4px;
+    color: gray;
+    border: none;
+    padding: 5px;
+}
+
+.mailBlock button {
+    width: 154px;
+    height: 52px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    color: white;
+    border: none;
+
+}
+
+#sub1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#sub2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.footer {
+    background-color: rgb(30, 33, 44);
+    width: 1920px;
+    height: 446px;
+    font-family: 'Century Gothic';
+}
+
+.footerBlocks {
+    padding-top: 80px;
+    margin-left: 345px;
+    display: flex;
+    gap: 70px;
+}
+
+.logoBlock {
+    height: 90px;
+    width: 279px;
+    text-align: justify;
+    color: white;
+}
+
+.logoBlock p {
+    margin-top: 25.1px;
+    color: gray;
+}
+
+.imgsBlock {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.siteMap h2, .fcourses h2, .contacts h2, .signUp h2 {
+    color: white;
+}
+
+.siteMap, .fcourses, .contacts, .signUp {
+    color: gray;
+}
+
+.siteMap ul, .fcourses ul, .contacts ul, .signUp ul {
+    margin-top: 35.1px;
+}
+
+.siteMap li, .fcourses li, .contacts li, .signUp li {
+    list-style: none;
+    margin-top: 8px;
+}
+
+.signUp {
+    width: 286px;
+}
+
+.signUp input {
+    margin-top: 24px;
+    width: 286px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+.signUp p{
+    margin-top: 12px;
+}
+.fcourses {}
+
+.contacts {}
+.contacts img{
+    margin-right: 12px;
+}
+.signUp {}
+
+.backg {
+    height: 58px;
+    width: 1920px;
+    background-color: rgb(41, 44, 55);
+    text-align: center;
+    color: gray;
+    font-family: 'Century Gothic';
+}
+
+.backg p {
+    padding-top: 20px;
+}
